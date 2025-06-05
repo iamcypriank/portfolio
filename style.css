@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+    --backgroundColor : #FAEDEE;
+    --primaryColor : #3F418D;
+    --fontColor : #777777;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+li:hover{
+    background-color: rgb(125, 75, 219);
+
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    color: var(--fontColor);
+    letter-spacing: 1px;
+    
+}
+
+
+strong{
+    color: black;
+}
+
+
+
+/* header part */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 16px;
+    flex-wrap: wrap;
+    background-color: var(--backgroundColor);
+}
+
+header h1{
+    color: black;
+}
+header ul{
+    position: relative;
+    top: 40px;
+    right: 10px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    background-color: var();
+    letter-spacing: 2px;
+    
+}
+
+header ul li a{
+    color: whitesmoke;
+}
+
+header ul li{
+    background-color: #3F418D;
+    color: whitesmoke;
+    padding: 4px 12px;
+    box-shadow: 6px 6px 0 0 black;
+    border: 2px solid black;
+    flex-grow: 2;
+}
+#hr-header{
+    border: 1px solid  black;
+
+}
+
+
+/* main section */
+
+/* hero section */
+#hero{
+    text-align: center;
+    padding: 64px 16px;
+    margin-bottom: 32px;
+    
+}
+#hero-title{
+    font-size: 40px;
+}
+
+/* education section */
+section{
+    padding: 32px 16px;
+    margin-bottom: 32px;
+}
+#section-title{
+    background-color: var(--primaryColor);
+    display: inline-block;
+    color: whitesmoke;
+    padding: 4px 16px;
+    box-shadow: 6px 6px 0 black;
+    border: 2px solid black;
+    position: relative;
+    top: -57px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+section article{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+article h3{
+    color: black;
+}
+
+
+/* 
+project css */
+.techstack{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    gap: 8px;
+    height: 30px;
+}
+
+
+.github-link a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 16px;
+    gap: 8px;
+    border: 2px solid grey;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 18px;
+}
+.github-icon{
+    height: 30px;
+}
+.icon{
+    height:50px;
+    
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+}
