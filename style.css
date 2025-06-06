@@ -1,174 +1,167 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-:root{
-    --backgroundColor : #FAEDEE;
-    --primaryColor : #3F418D;
-    --fontColor : #777777;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;1,400&display=swap');
+
+:root {
+  --backgroundColor: #FAEDEE;
+  --primaryColor: #3F418D;
+  --fontColor: #777777;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  color: var(--fontColor);
+  letter-spacing: 1px;
+  overflow-x: hidden;
 }
 
-
-
-li:hover{
-    background-color: rgb(125, 75, 219);
-
+a {
+  text-decoration: none;
+  color: black;
 }
 
-body{
-    font-family: "Inter", sans-serif;
-    height: 100vh;
-    width: 100vw;
-    color: var(--fontColor);
-    letter-spacing: 1px;
-    
+strong {
+  color: black;
 }
 
-
-strong{
-    color: black;
+li:hover {
+  background-color: rgb(125, 75, 219);
 }
 
-
-
-/* header part */
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px 16px;
-    flex-wrap: wrap;
-    background-color: var(--backgroundColor);
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 16px;
+  flex-wrap: wrap;
+  background-color: var(--backgroundColor);
 }
 
-header h1{
-    color: black;
-}
-header ul{
-    position: relative;
-    top: 40px;
-    right: 10px;
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    background-color: var();
-    letter-spacing: 2px;
-    
+header h1 {
+  color: black;
 }
 
-header ul li a{
-    color: whitesmoke;
+header ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  letter-spacing: 2px;
+  margin-top: 16px;
 }
 
-header ul li{
-    background-color: #3F418D;
-    color: whitesmoke;
-    padding: 4px 12px;
-    box-shadow: 6px 6px 0 0 black;
-    border: 2px solid black;
-    flex-grow: 2;
-}
-#hr-header{
-    border: 1px solid  black;
-
+header ul li {
+  background-color: var(--primaryColor);
+  color: whitesmoke;
+  padding: 4px 12px;
+  box-shadow: 6px 6px 0 0 black;
+  border: 2px solid black;
 }
 
-
-/* main section */
-
-/* hero section */
-#hero{
-    text-align: center;
-    padding: 64px 16px;
-    margin-bottom: 32px;
-    
-}
-#hero-title{
-    font-size: 40px;
+header ul li a {
+  color: whitesmoke;
 }
 
-/* education section */
-section{
-    margin-bottom: 32px;
-
-}
-article{
-    margin-bottom: 12px;
-}
-.section-title{
-    background-color: var(--primaryColor);
-    display: inline-block;
-    color: whitesmoke;
-    padding: 4px 16px;
-    box-shadow: 6px 6px 0 black;
-    border: 2px solid black;
-    position: relative;
-    top: -25px;
-    left: 50%;
-    transform: translateX(-50%);
+#hr-header {
+  border: 1px solid black;
+  margin: 16px 0;
 }
 
-
-section article{
-    padding: 32px 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+/* Hero */
+#hero {
+  text-align: center;
+  padding: 64px 16px;
+  margin-bottom: 32px;
 }
 
-article h3{
-    color: black;
+#hero-title {
+  font-size: 40px;
+  color: black;
 }
 
-
-/* 
-project css */
-.techstack{
-    display: flex;
-    justify-content: flex-start;
-    align-items:center;
-    gap: 8px;
-    height: 30px;
+/* Sections */
+section {
+  margin-bottom: 32px;
 }
 
-
-.github-link a{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 16px;
-    gap: 8px;
-    border: 2px solid grey;
-    width: fit-content;
-    padding: 8px;
-    border-radius: 18px;
-}
-.github-icon{
-    height: 30px;
-}
-.icon{
-    height:50px;
-    
+.section-title {
+  background-color: var(--primaryColor);
+  display: inline-block;
+  color: whitesmoke;
+  padding: 4px 16px;
+  box-shadow: 6px 6px 0 black;
+  border: 2px solid black;
+  position: relative;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.skills{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+/* Articles */
+section article {
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-footer{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    padding: 20px;
+article {
+  margin-bottom: 12px;
+}
+
+article h3 {
+  color: black;
+}
+
+/* Project / Techstack */
+.techstack {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 30px;
+}
+
+/* GitHub Link */
+.github-link a {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  gap: 8px;
+  border: 2px solid grey;
+  width: fit-content;
+  padding: 8px 12px;
+  border-radius: 18px;
+}
+
+.github-icon {
+  height: 30px;
+}
+
+.icon {
+  height: 50px;
+}
+
+/* Skills Section */
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+  background-color: var(--backgroundColor);
 }
