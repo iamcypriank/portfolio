@@ -98,10 +98,13 @@ header ul li{
 
 /* education section */
 section{
-    padding: 32px 16px;
     margin-bottom: 32px;
+
 }
-#section-title{
+article{
+    margin-bottom: 12px;
+}
+.section-title{
     background-color: var(--primaryColor);
     display: inline-block;
     color: whitesmoke;
@@ -109,13 +112,14 @@ section{
     box-shadow: 6px 6px 0 black;
     border: 2px solid black;
     position: relative;
-    top: -57px;
+    top: -25px;
     left: 50%;
     transform: translateX(-50%);
 }
 
 
 section article{
+    padding: 32px 16px;
     display: flex;
     flex-direction: column;
     gap: 8px;
