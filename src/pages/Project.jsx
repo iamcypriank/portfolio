@@ -11,7 +11,6 @@ export default function Project(){
 
     if(loading) return <Loading /> 
     if(error) return <p className="text-center mt-40">something went wrong</p>
-    console.log(option);
     
     return <>
     { data && <section className="py-10 flex flex-col gap-4">

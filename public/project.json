@@ -77,6 +77,14 @@
         "live" : "https://genuine-malabi-4c7a13.netlify.app/",
         "github" : "https://github.com/iamcypriank/devchallenge02/tree/main/06randomquotegenerator" 
          
+    },
+    {
+        "id" : "10",
+        "title" : "Landing Page",
+        "poster" : "https://i.postimg.cc/bJrt6cyX/Screenshot-from-2025-08-29-17-01-21.png",
+        "type" : "htmlcss",
+        "live" : "https://startling-druid-a35d68.netlify.app/",
+        "github" : "https://github.com/iamcypriank/devchallenge01/tree/main/15advancehomepage"
     }
     
 ]
