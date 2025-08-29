@@ -1,0 +1,82 @@
+[
+    {
+        "id" : "1",
+        "title" : "Quick Cart",
+        "type" : "reactjs",
+        "poster" : "https://i.postimg.cc/bNhYswHr/Screenshot-from-2025-08-29-14-01-28.png",
+        "live" : "https://quickcartio.netlify.app/",
+        "github" : "https://github.com/iamcypriank/shopping-cart-v2"
+
+    },
+    {
+        "id" : "2",
+        "title" : "Popcorn Search",
+        "type" : "reactjs",
+        "poster" : "https://i.postimg.cc/T3HXqdmr/Screenshot-from-2025-08-29-14-03-57.png",
+        "live" : "https://popcornsearchio.netlify.app/",
+        "github" : "https://github.com/iamcypriank/popcorn-search"
+
+        
+    },
+    {
+        "id" : "3",
+        "title" : "Resume builder",
+        "type" : "reactjs" ,
+        "poster" : "https://i.postimg.cc/mgPn4QzH/Screenshot-from-2025-08-29-14-05-19.png",
+        "live" : "https://resumebuilderiamcypriank.netlify.app/",
+        "github" : "https://github.com/iamcypriank/resume-builder"
+    },
+    {
+        "id" : "4",
+        "title" : "Etech-E-Sketch",
+        "type" : "vanillajs" ,
+        "poster" : "https://i.postimg.cc/sXTP1NbD/Screenshot-from-2025-08-29-14-08-33.png",
+        "live" : "https://etch-a-sketch-iamcypriank.netlify.app/",
+        "github" : "https://github.com/iamcypriank/etch-e-sketch"
+    },
+    {
+        "id" : "5",
+        "title" : "Library",
+        "type" : "vanillajs",
+        "poster" : "https://i.postimg.cc/cHCgk450/Screenshot-from-2025-08-29-14-09-48.png",
+        "live" : "https://libraryhtmlcssjs.netlify.app/",
+        "github" : "https://github.com/iamcypriank/Library"
+        
+        
+    },
+    {
+        "id" : "7",
+        "title" : "Music Player",
+        "type" : "vanillajs",
+        "poster" : "https://i.postimg.cc/QdScfPxg/Screenshot-from-2025-08-29-14-12-03.png",
+        "live" : "https://musicplayeriamcypriank.netlify.app/",
+        "github" : "https://github.com/iamcypriank/devchallenge02/tree/main/05musicplayer"   
+    },
+    {
+        "id" : "8",
+        "title" : "Scramblle",
+        "type" : "vanillajs",
+        "poster" : "https://i.postimg.cc/sxph7HNh/Screenshot-from-2025-08-29-14-12-59.png" ,
+        "live" : "https://wordscramblleiamcypriank.netlify.app/",
+        "github" : "https://github.com/iamcypriank/devchallenge02/tree/main/04wordguessgame" 
+    },
+    {
+        "id" : "6",
+        "title" : "Speech Bot",
+        "type" : "vanillajs",
+        "poster" : "https://i.postimg.cc/vBCrWV8p/Screenshot-from-2025-08-29-14-10-48.png",
+        "live" : "https://lustrous-florentine-5b0f90.netlify.app/",
+        "github" : "https://github.com/iamcypriank/text-to-speech"
+        
+    },
+    {
+        "id" : "9",
+        "title" : "Quote Generator",
+        "type" : "vanillajs",
+        "poster" : "https://i.postimg.cc/7Y9C4z8w/Screenshot-from-2025-08-29-14-13-48.png",
+        "live" : "https://genuine-malabi-4c7a13.netlify.app/",
+        "github" : "https://github.com/iamcypriank/devchallenge02/tree/main/06randomquotegenerator" 
+         
+    }
+    
+]

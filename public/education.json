@@ -1,0 +1,17 @@
+[   
+    {
+        "degree" : "10th",
+        "institute" : "ICSE",
+        "duration" : "2019-2020"
+    },
+    {
+        "degree" : "12th",
+        "institute" : "CBSE",
+        "duration" : "2021-2022"
+    },
+    {
+        "degree" : "Bachelor of Computer Applications",
+        "institute" : "Uttaranchal University",
+        "duration" : "2022-2025"
+    }
+]
