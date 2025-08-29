@@ -47,11 +47,12 @@ export default function Navbar() {
           className={({ isActive })=> isActive ? 'text-black  underline underline-offset-4 decoration-2' : 'text-font-secondary-light hover:underline hover:text-black underline-offset-4 decoration-2' }>Projects</NavLink>
           
           <Button onClick={(()=>{
-
+            closeMenu();
             const link = document.createElement('a');
             link.href="https://drive.usercontent.google.com/u/0/uc?id=1GE6pnULEVRZ_3Mbn49TOwWtZPelGPuio&export=download";
             link.download="'vite logo";
             link.click();
+
           })} to="/resume">Resume</Button>
           
         </nav>
