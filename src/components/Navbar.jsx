@@ -12,8 +12,10 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   const closeMenu = ()=>{ 
-    setShow(false);
-    navRef.current.style.display="none "
+    if(show){
+      setShow(false);
+      navRef.current.style.display="none "
+    }
   }
 
   return (
