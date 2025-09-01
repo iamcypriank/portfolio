@@ -15,6 +15,7 @@ export default function Navbar() {
     if(show){
       setShow(false);
       navRef.current.style.display="";
+
     }
   }
 
