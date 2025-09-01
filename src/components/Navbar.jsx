@@ -12,8 +12,10 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   const closeMenu = ()=>{ 
-    setShow(false);
-    navRef.current.style.display="none "
+    if(show){
+      setShow(false);
+      navRef.current.style.display="";
+    }
   }
 
   return (
@@ -60,7 +62,7 @@ export default function Navbar() {
           <Button 
           onClick={()=>{
             setShow(false);
-            navRef.current.style.display="none"
+            navRef.current.style.display=""
           }}
           customStyle="sm:hidden text-medium">
             <X color="black" />

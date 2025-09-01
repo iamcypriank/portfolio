@@ -7,6 +7,7 @@ import javascriptlogo from "../assets/skills/javascript-svgrepo-com.svg"
 import reactlogo from "../assets/skills/react-svgrepo-com.svg"
 import tailwindlogo from "../assets/skills/tailwind-svgrepo-com.svg";
 import Loading from "../components/Loading";
+import { motion } from "framer-motion";
 
 export default function About(){
 
@@ -26,7 +27,25 @@ export default function About(){
             JavaScript, and modern web technologies.</p>
         </div>
         <div className="w-full flex justify-center max-[1000px]:hidden ">
-            <img className="h-50" src={reactlogo} />
+            <motion.img
+            initial={{
+                scale : 0,
+            }}
+            animate={{
+                scale : 1,
+                rotate : 360
+            }}
+            transition={{
+                scale : {
+                    duration : .3
+                },
+                rotate : {
+                    duration : 2,
+                    repeat : Infinity,
+                    ease : "linear"
+                }
+            }}
+             className="h-50" src={reactlogo} />
         </div>
     </div>
 
